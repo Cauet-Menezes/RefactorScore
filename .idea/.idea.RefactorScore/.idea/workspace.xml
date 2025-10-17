@@ -8,7 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8920e6e-0e9d-45ae-a918-8deb5f157a51" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RefactorScore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RefactorScore/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RefactorScore.CrossCutting.IoC/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RefactorScore.CrossCutting.IoC/obj/Debug/net8.0/RefactorScore.CrossCutting.IoC.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RefactorScore.CrossCutting.IoC/obj/Debug/net8.0/RefactorScore.CrossCutting.IoC.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RefactorScore.CrossCutting.IoC/obj/Debug/net8.0/RefactorScore.CrossCutting.IoC.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RefactorScore.CrossCutting.IoC/obj/Debug/net8.0/RefactorScore.CrossCutting.IoC.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RefactorScore.CrossCutting.IoC/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.Infrastructure/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.Infrastructure/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/RefactorScore.WorkerService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/RefactorScore.WorkerService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/RefactorScore.WorkerService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/RefactorScore.WorkerService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/RefactorScore.WorkerService/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +39,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Cauet-Menezes/RefactorScore.git",
+    "accountId": "4d2871fc-1974-4e68-8a77-d38536e49a78"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -38,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

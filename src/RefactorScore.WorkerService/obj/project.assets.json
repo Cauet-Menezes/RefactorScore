@@ -3279,8 +3279,8 @@
     },
     "RefactorScore.CrossCutting.IoC/1.0.0": {
       "type": "project",
-      "path": "../RefactorScore.CrossCutting.IoC/RefactorScore.CrossCutting.IoC.csproj",
-      "msbuildProject": "../RefactorScore.CrossCutting.IoC/RefactorScore.CrossCutting.IoC.csproj"
+      "path": "../../RefactorScore.CrossCutting.IoC/RefactorScore.CrossCutting.IoC.csproj",
+      "msbuildProject": "../../RefactorScore.CrossCutting.IoC/RefactorScore.CrossCutting.IoC.csproj"
     },
     "RefactorScore.Domain/1.0.0": {
       "type": "project",
@@ -3295,7 +3295,6 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
       "Microsoft.Extensions.Diagnostics.HealthChecks >= 8.0.0",
       "Microsoft.Extensions.Hosting >= 8.0.1",
       "RefactorScore.Application >= 1.0.0",
@@ -3335,9 +3334,6 @@
             },
             "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj": {
               "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj"
-            },
-            "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj"
             },
             "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj": {
               "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj"
@@ -3414,16 +3410,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

@@ -4,6 +4,89 @@
     "C:\\RefactorScore\\src\\RefactorScore.WorkerService\\RefactorScore.WorkerService.csproj": {}
   },
   "projects": {
+    "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
+        "projectName": "RefactorScore.CrossCutting.IoC",
+        "projectPath": "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\Cauet\\.nuget\\packages\\",
+        "outputPath": "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Cauet\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj": {
+                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj"
+              },
+              "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj": {
+                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj"
+              },
+              "C:\\RefactorScore\\src\\RefactorScore.Infrastructure\\RefactorScore.Infrastructure.csproj": {
+                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Infrastructure\\RefactorScore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.19, 8.0.19]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -68,89 +151,6 @@
               "version": "[8.0.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
-        "projectName": "RefactorScore.CrossCutting.IoC",
-        "projectPath": "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
-        "packagesPath": "C:\\Users\\Cauet\\.nuget\\packages\\",
-        "outputPath": "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Cauet\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj": {
-                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj"
-              },
-              "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj": {
-                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj"
-              },
-              "C:\\RefactorScore\\src\\RefactorScore.Infrastructure\\RefactorScore.Infrastructure.csproj": {
-                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Infrastructure\\RefactorScore.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -392,9 +392,6 @@
               },
               "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj": {
                 "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Application\\RefactorScore.Application.csproj"
-              },
-              "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj": {
-                "projectPath": "C:\\RefactorScore\\src\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj"
               },
               "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj": {
                 "projectPath": "C:\\RefactorScore\\src\\RefactorScore.Domain\\RefactorScore.Domain.csproj"

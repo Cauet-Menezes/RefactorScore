@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "7xaDdxUXkNY=",
-  "success": false,
+  "dgSpecHash": "a5aJg6QYTHE=",
+  "success": true,
   "projectFilePath": "C:\\RefactorScore\\src\\RefactorScore.WorkerService\\RefactorScore.WorkerService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cauet\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
@@ -74,17 +74,5 @@
     "C:\\Users\\Cauet\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.19\\microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512",
     "C:\\Users\\Cauet\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.19\\microsoft.netcore.app.host.win-x64.8.0.19.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj'. Check that the project reference is valid and that the project file exists.",
-      "projectPath": "C:\\RefactorScore\\src\\RefactorScore.WorkerService\\RefactorScore.WorkerService.csproj",
-      "filePath": "C:\\RefactorScore\\src\\RefactorScore.WorkerService\\RefactorScore.WorkerService.csproj",
-      "libraryId": "C:\\RefactorScore\\RefactorScore.CrossCutting.IoC\\RefactorScore.CrossCutting.IoC.csproj",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
